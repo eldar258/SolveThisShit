@@ -31,7 +31,11 @@ function clickBySend() {
 }
 
 function clickByCheckBox(el, variant) {
-    el.children[1].children[variant].children[1].click()
+    let tmp = el.children[1].children[variant]
+    if (typeof tmp === 'undefined') {
+        console.log((variant + 1), "ВОПРОСА НЕТ ПРАВИЛЬНОГО ВАРИАНТА")
+    }
+    tmp.children[1].click()
 }
 
 function clickByReset() {
