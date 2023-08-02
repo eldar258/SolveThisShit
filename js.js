@@ -33,7 +33,7 @@ function clickBySend() {
 function clickByCheckBox(el, variant) {
     let tmp = el.children[1].children[variant]
     if (typeof tmp === 'undefined') {
-        console.log((variant + 1), "ВОПРОСА НЕТ ПРАВИЛЬНОГО ВАРИАНТА")
+        console.log("На вопрос: ", el.children[0].innerText, "- НЕТ ПРАВИЛЬНОГО ВАРИАНТА")
     }
     tmp.children[1].click()
 }
