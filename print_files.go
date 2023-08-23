@@ -10,7 +10,8 @@ import (
 func printFiles() {
 	entries, err := os.ReadDir("./")
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println(err)
+		return
 	}
 
 	filter := map[string]int{}
