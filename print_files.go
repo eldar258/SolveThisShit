@@ -7,6 +7,10 @@ import (
 	"os"
 )
 
+func init() {
+	printFiles()
+}
+
 func printFiles() {
 	entries, err := os.ReadDir("./")
 	if err != nil {
