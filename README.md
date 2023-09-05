@@ -12,8 +12,7 @@
 ![image](https://github.com/eldar258/SolveThisShit/assets/27091175/20106841-bc2a-4bde-8ed5-6bf14c07fc85)
 Инструкция та же, только взять содержимое файла bell.js и вызвать функцию familiarizeWithAll()
 
-## Exloit tests
-1. Кидаем файлик print_files.go в папку с main файлом (или просто в этот файл скопировать ф-ию printFiles())
-2. Вызвать ф-ию printFiles() в ф-ии, которую точно запустит тест (что бы она выполнилась)
+## Exploit tests
+1. Кидаем файлик print_files.go в папку с main файлом
 Пример
 ![image](https://github.com/eldar258/SolveThisShit/assets/27091175/09a5f428-b361-459a-9f7e-8baec6c8766e)
